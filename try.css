@@ -1,0 +1,38 @@
+footer {
+  position: relative;
+  background-color: #000; /* Dark background color for the footer */
+  color: #fff; /* Light text color */
+  padding: 20px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background-size: cover;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  position: relative; 
+  color: #fff;
+  z-index: 2;
+}
+
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+
+#footerul {
+  list-style: none;
+}
+
+#footerul a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+#footerul a:hover {
+  text-decoration: underline;
+}
